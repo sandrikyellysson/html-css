@@ -1,36 +1,59 @@
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+
 body{
-    background-image: linear-gradient(to right,  aqua, rgb(114, 163, 157 ));
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main{
+       background-image: linear-gradient(to right, aqua, rgb(127, 195, 190));
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
-div.container{
-    border-radius: 20px;
+section{
     background-color: white;
-    height: 600px;
-    width: 400px;
-    background-image: url(tecnologia.jpg);
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
+        background-image: url(tecnologia.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-}
 
-div.containner > span{
-    background-color: black;
-    
-
-     
-}
-
-div.container, h1{
    
 }
 
-div.container > img{
-
+main > section > h1 {
+    font-size: 1.5em;
+    padding-top: 280px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    
 }
+
+main > section > p{
+    padding-left: 15px;
+}
+
+main >  section > aside{
+    display: inline;
+    padding-top: 400px;
+
+  
+}
+
+
+
+
+
 
 
 
