@@ -1,0 +1,36 @@
+
+body{
+    background-image: linear-gradient(to right,  aqua, rgb(114, 163, 157 ));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+div.container{
+    border-radius: 20px;
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    background-image: url(tecnologia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.containner > span{
+    background-color: black;
+    
+
+     
+}
+
+div.container, h1{
+   
+}
+
+div.container > img{
+
+}
+
+
+
