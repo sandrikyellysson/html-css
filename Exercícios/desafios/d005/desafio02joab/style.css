@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  serif;
+    background: black url(https://www.tricurioso.com/wp-content/uploads/2018/12/do-que-e-feita-a-areia-1.jpg) center no-repeat fixed;
+    background-size: cover;
+ 
+}
+
+
+.container{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+
+}
+.card-banner{
+    width: 100%;
+}
+
+.dia{
+    color: green;
+    justify-items: center;
+    padding-top: 30px;
+}
+
+.title{
+    justify-items: center;
+    font-weight: 900;
+    
+}
+
+.container .text{
+
+    justify-items: center;
+    align-items: center;
+    padding: 30px 30px;
+
+}
+
+
+.card{
+    background-color: white;
+
+    max-width: 360px ;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.info{
+    display: flex;
+    background-color: rgb(4, 179, 4);
+    height: 70px;
+    color: white;
+    justify-content: space-around ;
+    flex-flow: row nowrap;
+    
+    
+    
+
+}
+
+
+.item{
+   border: 1px solid black;
+   text-align: center;
+   flex: auto;
+   padding: 10px;
+   
+}

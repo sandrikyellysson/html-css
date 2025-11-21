@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #90e2e4 0%, #8087d9 100%);
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #ffffff;
+
+  max-width: 360px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.card .card-banner {
+  width: 100%;
+}
+.card .card-content {
+  padding: 16px;
+}
+.card .card-title {
+  margin: 16px 0;
+}
+.card .card-avatar {
+  margin-right: 8px;
+}
+.card .card-user {
+  display: flex;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.card-user-info strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* components */
+.chip {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.chip.chip-blue {
+  background: linear-gradient(180deg, #338bf3 0%, #54c1f6 100%);
+}
+.chip.chip-yellow {
+  background: linear-gradient(180deg, #f7d4a9 0%, #cca05c 100%);
+}
+.chip.chip-red {
+  background: linear-gradient(180deg, #ea413b 0%, #cc2d41 100%);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
